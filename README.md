@@ -30,7 +30,7 @@
 
 ### 📥 **نحوه دریافت و راهنمای استفاده**
 
-برای شروع کار با ویرایشگر K3، لطفاً مراحل زیر را دنبال کنید:
+برای شروع کار با ویرایشگر مانگای K3، لطفاً مراحل زیر را دنبال کنید:
 
 #### **۱. دریافت نرم‌افزار**
 
@@ -57,8 +57,11 @@
 </a>
 </p>
 
+
 <p align="center">
-<strong><a href="https://www.youtube.com/watch?v=_jB2Qn4O66Y" target="_blank">مشاهده مستقیم در وب‌سایت یوتیوب</a></strong>
+  <a href="https://www.youtube.com/watch?v=_jB2Qn4O66Y" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
+  </a>
 </p>
 
 ---
