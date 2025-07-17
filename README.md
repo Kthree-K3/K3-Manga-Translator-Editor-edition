@@ -52,17 +52,18 @@
 به منظور آشنایی کامل و سریع با تمام قابلیت‌های نرم‌افزار، یک ویدیوی آموزشی جامع تهیه شده است. برای مشاهده، لطفاً بر روی تصویر زیر کلیک نمایید:
 
 <p align="center">
+  <a href="https://www.youtube.com/watch?v=_jB2Qn4O66Y" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
+  </a>
+</p>
+
+<p align="center">
 <a href="https://www.youtube.com/watch?v=_jB2Qn4O66Y" target="_blank" title="برای مشاهده راهنمای ویدیویی کلیک کنید">
   <img src="https://img.youtube.com/vi/_jB2Qn4O66Y/maxresdefault.jpg" alt="راهنمای استفاده از ویرایشگر مانگای K3" width="600">
 </a>
 </p>
 
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=_jB2Qn4O66Y" target="_blank">
-    <img src="https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
 
 ---
 
