@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ویرایشگر مترجم مانگای K3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+        body {
+            background-color: #121212;
+            background-image: url('https://wallpapercave.com/wp/wp6763429.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            color: #e0e0e0;
+            font-family: 'Vazirmatn', Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 20px 40px;
+            background-color: rgba(10, 10, 10, 0.9);
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        h1, h2, h3, h4 {
+            color: #e94560;
+            border-bottom: 2px solid rgba(233, 69, 96, 0.5);
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        h1 { font-size: 2.2em; text-align: center; }
+        h3 { font-size: 1.5em; }
+        h4 { font-size: 1.2em; }
+
+        a {
+            color: #00aaff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #33c1ff;
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        
+        p[align="center"] img {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        b, strong { color: #f5c518; }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to left, rgba(233, 69, 96, 0), rgba(233, 69, 96, 0.75), rgba(233, 69, 96, 0));
+            margin: 40px 0;
+        }
+
+        blockquote {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-right: 4px solid #e94560;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95em;
+        }
+        
+        ul {
+            list-style-type: '★ ';
+            padding-right: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        
+        /* === START OF NEW CSS FOR THE BUTTON === */
+        .button-group {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px; /* Adds space above the button */
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border: 1px solid #666;
+            border-radius: 8px;
+            color: #e0e0e0;
+            background-color: transparent;
+            text-decoration: none;
+            font-size: 1em;
+            font-family: 'Vazirmatn', sans-serif;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #e94560;
+            border-color: #e94560;
+            color: #ffffff;
+        }
+
+        .btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+        /* === END OF NEW CSS === */
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+<!-- START OF YOUR CONTENT - UNCHANGED -->
+<h1>📖 ویرایشگر مترجم مانگای K3</h1>
+
+<p align="center">
+  <strong>این نرم‌افزار توسط تیم Kthree، با عشق به دنیای مانگا و اشتیاق به فناوری، به‌صورت رایگان برای جامعه مترجمان فارسی‌زبان توسعه داده شده است.</strong>
+  
+<p align="center"><img src="images/Banner.png" width="550" alt="Banner"></p>
+</p>
+
+<hr>
+
+<h3>✨ داستان ما: از یک نیاز تا یک راه‌حل</h3>
+
+<p>ایده ساخت این ویرایشگر از یک نیاز مشترک و یک دغدغه قدیمی زاده شد. هر مترجم مانگا، داستان کلنجار رفتن با نرم‌افزارهای مختلف را به خوبی می‌شناسد: یک برنامه برای پاکسازی، دیگری برای استخراج متن و سومی برای حروف‌چینی؛ که هیچ‌کدام هم به درستی از زبان فارسی و چالش‌های بومی‌سازی آن پشتیبانی نمی‌کردند. سال‌ها بود که جای خالی یک ابزار قدرتمند، یکپارچه و فارسی برای ترجمه مانگا به شدت احساس می‌شد.</p>
+<p>ما باور داریم که مترجمان و ویراستاران، هنرمندانی هستند که داستان‌ها را برای ما زنده می‌کنند. اما ابزارهای نامناسب می‌توانند خلاقیت را محدود کنند. با حسرت می‌دیدیم که ابزارهای خارجی، با تمام امکاناتشان، در درک ظرافت‌های زبان فارسی ناتوان‌اند و فرآیندهای موجود، به دلیل این پراکندگی، ناکارآمد و زمان‌بر هستند.</p>
+
+<br/><p align="center"><img src="images/Image-app.png" alt="App Screenshot"></p>
+
+
+<h3>🚀 چشم‌انداز ما</h3>
+
+<p>هدف ما فراتر از ساخت یک ابزار ساده بود؛ ما به دنبال ایجاد یک برنامه یکپارچه در صنعت ترجمه مانگا در ایران بودیم. می‌خواستیم ابزاری بسازیم که مترجم بتواند تمام تمرکز خود را روی کیفیت ترجمه و ویرایش بگذارد، نه درگیری با محدودیت‌های فنی. ویرایشگر مترجم مانگای K3 با این چشم‌انداز توسعه یافت که با قدرت هوش مصنوعی و پردازش تصویر مدرن، تمام مراحل را در یک محیط واحد و بهینه گرد هم آورد و یک برنامه یکپارچه به دست مترجمان مانگا بدهد.</p>
+<p>این برنامه، پاسخ ما به تمام این نیازها و هدیه‌ای از طرف ما به جامعه پرشور مانگای ایران است. امیدواریم این ابزار به شما قدرت دهد تا آثاری ماندگار و بی‌نقص خلق کنید و به آن افتخار کنید.</p>
+<p>امیدواریم این برنامه در خلق آثاری با کیفیت و زیبا به شما کمک کند.</p>
+
+<hr>
+
+
+<h3>📥 نحوه دریافت و راهنمای استفاده</h3>
+
+<p>برای شروع کار با ویرایشگر مانگای K3، لطفاً مراحل زیر را دنبال کنید:</p>
+
+<h4>۱. دریافت نرم‌افزار</h4>
+
+<p>فایل‌های برنامه جهت دسترسی آسان، بر روی سرور MEGA بارگذاری شده است. برای ورود به صفحه دانلود، روی دکمه زیر کلیک کنید.</p>
+<p align="center">
+  <a href="https://mega.nz/folder/R8QSzbgY#TYqFPZr1TTb1XcmIL0qZZg" target="_blank">
+    <img src="https://img.shields.io/badge/Download_from_MEGA-F92C8E?style=for-the-badge&logo=mega&logoColor=white" alt="Download from MEGA">
+  </a>
+</p>
+
+<blockquote>
+  <p><strong>راهنمای دریافت فایل:</strong><br>
+  پس از ورود به لینک، روی گزینه‌ی <strong>"Download"</strong> کلیک نمایید. سپس، از منوی باز شده گزینه‌ی <strong>"Download as a ZIP"</strong> را انتخاب کنید تا تمامی فایل‌ها به صورت یکپارچه و فشرده دریافت شوند.</p>
+</blockquote>
+
+<br/>
+
+<h4>۲. راهنمای ویدیویی</h4>
+
+<p>به منظور آشنایی کامل و سریع با تمام قابلیت‌های نرم‌افزار، یک ویدیوی آموزشی جامع تهیه شده است. برای مشاهده، لطفاً بر روی تصویر زیر کلیک نمایید:</p>
+  <p align="center">
+  <a href="https://www.youtube.com/watch?v=_jB2Qn4O66Y" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
+  </a>
+  </p>
+<p align="center">
+<a href="https://www.youtube.com/watch?v=_jB2Qn4O66Y" target="_blank" title="برای مشاهده راهنمای ویدیویی کلیک کنید">
+  <img src="https://img.youtube.com/vi/_jB2Qn4O66Y/maxresdefault.jpg" alt="راهنمای استفاده از ویرایشگر مانگای K3" width="600">
+</a>
+</p>
+
+
+<hr>
+
+<h3>💬 ارتباط با ما</h3>
+
+<p>از اینکه از ویرایشگر مترجم مانگای K3 استفاده می‌کنید سپاسگزاریم!</p>
+<p>برای ارتباط با ما، ارائه پیشنهادات یا گزارش مشکلات، می‌توانید از راه‌های زیر استفاده کنید:</p>
+<ul>
+    <li><strong>ایمیل:</strong> <a href="mailto:Khalilkhko@gmail.com">Khalilkhko@gmail.com</a></li>
+</ul>
+
+<!-- === OLD BUTTON REMOVED AND REPLACED WITH THIS NEW ONE === -->
+<div class="button-group">
+    <a href="https://github.com/Kthree-K3/K3-Manga-Translator-Editor-edition" target="_blank" class="btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <span>گیت‌هاب</span>
+    </a>
+</div>
+
+<!-- END OF YOUR CONTENT -->
+
+</div>
+
+</body>
+</html>
