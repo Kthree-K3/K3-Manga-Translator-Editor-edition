@@ -6,8 +6,8 @@
   <img src="Banner.png" alt="K3 Manga Translator Logo" width="200">
 
   <!-- TITLE -->
-  <h1>K3 Manga Translator</h1>
-
+  <h1>K3 Manga Translator - Editor edition</h1>
+ 
   <!-- SUBTITLE -->
   <h3>
     پایان پراکندگی، آغاز هنر ترجمه.<br>
